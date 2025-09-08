@@ -150,3 +150,30 @@ img{
 .card p{
     padding-left: 20px;
 }
+
+/*footer*/
+.footer-container{
+    margin-top: 200px;
+    margin-bottom: 400px;
+    display : grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding : 0px 20px;
+}
+
+.footer-r1-c1 nav , .footer-r1-c2 nav , .footer-r1-c3 p{
+    padding-top: 20px;
+}
+.footer-r1-c1 nav ul li ,.footer-r1-c2 nav ul li {
+    list-style-type: none;
+}
+
+.footer-r1-c1 nav ul li a , .footer-r1-c2 nav ul li a{
+    text-decoration: none;
+    color : black
+}
+
+.footer-container p{
+    font-weight: 100;
+    font-size: 15px;
+}
+
